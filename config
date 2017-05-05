@@ -1,5 +1,4 @@
 always-display-description true
-browser "google-chrome-stable"
 cache-file "~/.cache/newsbeuter/db"
 cookie-cache "~/.cache/newsbeuter/cookie"
 html-renderer "w3m -dump -T text/html"
