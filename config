@@ -9,10 +9,6 @@ download-path "~/desktop"
 player "mplayer"
 
 # colors
-color listnormal	white black
-color listfocus		white black reverse bold
-color info			white black reverse
-color background	white black
-color article		white black
+include "~/.config/newsbeuter/colors"
 
 browser "youtube-viewer --no-interactive --download %u"
