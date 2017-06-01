@@ -7,6 +7,8 @@ save-path "~/dekstop"
 error-log "~/.local/share/newsbeuter/error.log"
 download-path "~/desktop"
 player "mplayer"
+urls-source "opml"
+opml-url "https://gpodder.net/user/doronbehar/subscriptions.opml"
 
 # colors
 include "~/.config/newsbeuter/colors"
