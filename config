@@ -3,14 +3,16 @@ cache-file "~/.cache/newsbeuter/db"
 cookie-cache "~/.cache/newsbeuter/cookie"
 html-renderer "w3m -dump -T text/html"
 refresh-on-startup yes
-save-path "~/dekstop"
+save-path "~/downloads/podcasts"
 error-log "~/.local/share/newsbeuter/error.log"
-download-path "~/desktop"
-player "mplayer"
+download-path "~/downloads/podcasts"
+player "mpv"
 urls-source "opml"
 opml-url "https://gpodder.net/user/doronbehar/subscriptions.opml"
 
 # colors
 include "~/.config/newsbeuter/colors"
 
-browser "youtube-viewer --no-interactive --download %u"
+browser "xdg-open"
+
+
