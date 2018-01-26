@@ -7,8 +7,11 @@ save-path "~/downloads/podcasts"
 error-log "~/.local/share/newsbeuter/error.log"
 download-path "~/downloads/podcasts"
 player "mpv"
-urls-source "opml"
-opml-url "https://gpodder.net/user/doronbehar/subscriptions.opml"
+
+urls-source "ocnews"
+ocnews-url "http://behar.duckdns.org:8080/"
+ocnews-login "doron"
+ocnews-passwordeval "pass www/behar.duckdns.org"
 
 # colors
 include "~/.config/newsbeuter/colors"
