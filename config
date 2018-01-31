@@ -9,9 +9,9 @@ download-path "~/downloads/podcasts"
 player "mpv"
 
 urls-source "ocnews"
-ocnews-url "http://behar.duckdns.org:8080/"
-ocnews-login "doron"
-ocnews-passwordeval "pass www/behar.duckdns.org"
+ocnews-url "https://nextcloud.doronbehar.com/"
+ocnews-login "doronbehar"
+ocnews-passwordeval "pass software/nextcloud-newsboat"
 
 # colors
 include "~/.config/newsbeuter/colors"
