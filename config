@@ -10,8 +10,8 @@ player "mpv"
 
 urls-source "ocnews"
 ocnews-url "https://nextcloud.doronbehar.com/"
-ocnews-login "doronbehar"
-ocnews-passwordeval "gopass software/desktop/nextcloud/newsboat"
+ocnews-login "admin"
+ocnews-passwordeval "gopass show -f software/desktop/nextcloud/newsboat"
 
 # colors
 include "~/.config/newsbeuter/colors"
